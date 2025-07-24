@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>CafIntellimen</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <script src="Js/index.js"></script>
+
+    
+     <div class="navigation">
+        <h3>CAF-intel</h3><br><br>
+    <ul id="list">
+        <!-- Home -->
+        <li class="active">
+            <a  div href="#">
+                <span class="icon"><i class="fa-solid fa-play"></i></span>
+                <span class="title">início</span>
+            </a>
+        </li><br>
+
+        <!--Usuario  -->
+        <li>
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <span class="title">Usuário</span>
+            </a>
+        </li><br>
+
+         <!-- Mensagem -->
+        <li>
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-people-group"></i></span>
+                <span class="title">Comunidade</span>
+            </a>
+        </li><br>
+
+        <!-- Configurações -->
+        <li>
+            <a href="#">
+                <span class="icon"><i class="fa-regular fa-file-lines"></i></span>
+                <span class="title">PDF</span>
+            </a>
+        </li><br>
+
+         <li>
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-handshake-angle"></i></span>
+                <span class="title">Ajuda</span>
+            </a>
+        </li><br>
+
+         <li>
+            <a href="#">
+                <span class="icon"><i class="fa-solid fa-border-all"></i></span>
+                <span class="title">Tudo</span>
+            </a>
+        </li>
+
+
+    </ul>
+   </div>
+    <div class="conteudoPrincipal">
+     
+        <div class="logo">
+         <span>Gere o seu PDF Aqui!</span>
+    </div><br>
+    
+<section>
+     <div class="buttons1">
+        <button>Javascrpt</button>
+        <button>UI/UX design</button>
+    </div><br>
+
+    <div class="buttons">
+        <button>Lógica de Programação</button>
+        <button>Python WebDeveloper</button>
+        <button>Fullstack Developer</button>
+    </div>
+
+</section><br>
+        
+       <div class="GERAR">
+        <input  id="GPDF" type="text" placeholder="Excreva o assunto na qual vai gerar o pdf">
+      <button onclick="gerarPDF()" class="gerar"><i class="fa-brands fa-telegram"></i></button>
+       </div>
+      
+
+    </div>
+    
+    
+    
+</body>
+</html>
